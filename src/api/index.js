@@ -10,3 +10,10 @@ export const reqCategoryList = () => requests({
 
 // 获取banner接口
 export const reqGetBannerList = () => mockRequests.get('/banner')
+
+// 获取搜索模块接口
+export const reqGetSearchInfo = (params) => requests({
+    url: '/list',
+    method: 'post',
+    data: params
+})

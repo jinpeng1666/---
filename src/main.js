@@ -6,6 +6,8 @@ Vue.config.productionTip = false
 // 注册全局组件
 import TypeNav from '@/components/TypeNav'
 Vue.component(TypeNav.name, TypeNav)
+import Carsousel from '@/components/Carousel'
+Vue.component(Carsousel.name, Carsousel)
 
 // 引入路由
 import router from '@/router'
